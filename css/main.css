@@ -245,6 +245,11 @@ iframe {
     padding-left: 10px;
 }
 
+.top-border {
+    border-top: solid black 1px;
+    padding-top: 10px;
+}
+
 .heading h3 {
     font-size: 16px;
     color: #333333;
@@ -253,6 +258,12 @@ iframe {
 
 .news-item {
     padding: 10px;
+}
+
+.popular p {
+    font-size: 18px;
+    font-family: nyt-cheltenham, georgia, "times new roman", times, serif;
+    font-weight: 500;
 }
 
 .news-item img {
@@ -304,7 +315,6 @@ iframe {
     grid-column: span 6;
     width: 93.5%;
     margin: 30px auto 0 auto;
-    background-color: yellow;
 }
 
 .final-column {
